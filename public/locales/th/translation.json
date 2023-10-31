@@ -1,0 +1,17 @@
+{
+  "form.firstname": "ชื่อ",
+  "form.lastname": "นามสกุล",
+  "form.email": "อีเมล",
+  "form.username": "ชื่อผู้ใช้",
+  "form.password": "รหัสผ่าน",
+  "signup.signup": "ลงทะเบียน",
+  "login.login": "เข้าสู่ระบบ",
+  "profile.profile": "โปรไฟล์",
+  "profile.token": "โทเค็น",
+  "profile.id": "รหัส",
+  "profile.name": "ชื่อ",
+  "profile.email": "อีเมล",
+  "Profile.authorities": "สิทธิ",
+  "form.username.required": "ต้องระบุชื่อผู้ใช้",
+  "form.password.required": "ต้องระบุรหัสผ่าน"
+}
