@@ -24,14 +24,6 @@ import java.util.Locale;
 public class TestController {
     private final MessageSource messageSource;
 
-    @Bean
-    public MessageSource messageSource() {
-        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-        messageSource.setBasename("messages/messages");
-        messageSource.setDefaultEncoding("UTF-8");
-        return messageSource;
-    }
-
     public TestController(@Qualifier("messageSource") MessageSource messageSource) {
         this.messageSource = messageSource;
     }
