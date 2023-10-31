@@ -11,7 +11,12 @@
   "profile.id": "Id",
   "profile.name": "Name",
   "profile.email": "Email",
-  "Profile.authorities": "Authorities",
+  "profile.authorities": "Authorities",
   "form.username.required": "Username required",
-  "form.password.required": "Password required"
+  "form.password.required": "Password required",
+  "managerBoard": "This is the manager board, strictly for manager use only.",
+  "adminBoard": "This is the admin board, strictly for administrative use only",
+  "youAre.user": "You are a User",
+  "youAre.admin": "You are an Admin",
+  "youAre.manager": "You are a Manager"
 }

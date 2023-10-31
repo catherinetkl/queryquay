@@ -1,11 +1,7 @@
 package com.catherinetkl.spring.security.postgresql.controllers;
 
-import com.catherinetkl.spring.security.postgresql.payload.response.MessageResponse;
 import com.catherinetkl.spring.security.postgresql.security.services.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.support.ResourceBundleMessageSource;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -60,17 +56,13 @@ public class TestController {
 
     @GetMapping("/manager")
     @PreAuthorize("hasRole('MANAGER') or hasRole('ADMIN')")
-    public ResponseEntity<MessageResponse> managerAccess(Locale locale) {
-        String managerMessageKey = "message.role.manager";
-        String managerMessage = messageSource.getMessage(managerMessageKey, null, locale);
-        return ResponseEntity.ok(new MessageResponse(managerMessage));
+    public String managerAccess() {
+        return "This is the manager board, strictly for manager use only.";
     }
 
     @GetMapping("/admin")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<MessageResponse> adminAccess(Locale locale) {
-        String adminMessageKey = "message.role.admin";
-        String adminMessage = messageSource.getMessage(adminMessageKey, null, locale);
-        return ResponseEntity.ok(new MessageResponse(adminMessage));
+    public String adminAccess() {
+        return "This is the admin board, strictly for admin use only";
     }
 }

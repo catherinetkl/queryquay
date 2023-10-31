@@ -11,7 +11,12 @@
   "profile.id": "Id",
   "profile.name": "Nama",
   "profile.email": "Emel",
-  "Profile.authorities": "Pihak Berkuasa",
+  "profile.authorities": "Pihak Berkuasa",
   "form.username.required": "Nama pengguna wajib diisi",
-  "form.password.required": "Kata laluan wajib diisi"
+  "form.password.required": "Kata laluan wajib diisi",
+  "managerBoard": "Ini adalah papan pengurus, hanya untuk kegunaan pengurus.",
+  "adminBoard": "Ini adalah papan pentadbir, hanya untuk kegunaan pentadbir.",
+  "youAre.user": "Anda ialah Pengguna.",
+  "youAre.manager":"Anda ialah Pengurus.",
+  "youAre.admin": "Anda ialah Pentadbir."
 }

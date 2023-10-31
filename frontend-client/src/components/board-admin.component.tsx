@@ -2,6 +2,7 @@ import { Component } from "react";
 
 import UserService from "../services/user.service";
 import EventBus from "../common/EventBus";
+import {t} from "i18next";
 
 type Props = {};
 
@@ -46,7 +47,8 @@ export default class BoardAdmin extends Component<Props, State> {
         return (
             <div className="container">
                 <header className="jumbotron">
-                    <h3>{this.state.content}</h3>
+                    <h3>{t('adminBoard')}</h3>
+                    {/*<h3>{this.state.content}</h3>*/}
                 </header>
             </div>
         );

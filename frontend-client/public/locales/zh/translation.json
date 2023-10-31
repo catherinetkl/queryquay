@@ -11,7 +11,12 @@
   "profile.id": "标识",
   "profile.name": "姓名",
   "profile.email": "电邮",
-  "Profile.authorities": "权限",
+  "profile.authorities": "权限",
   "form.username.required": "用户名是必填的",
-  "form.password.required": "密码是必填的"
+  "form.password.required": "密码是必填的",
+  "managerBoard": "这是经理板，仅供经理使用",
+  "adminBoard": "这是管理员板，仅供管理员使用",
+  "youAre.user": "您是一个用户",
+  "youAre.admin": "您是一个管理员",
+  "youAre.manager": "您是一个经理"
 }

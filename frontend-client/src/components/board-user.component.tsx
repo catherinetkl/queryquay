@@ -1,7 +1,7 @@
 import { Component } from "react";
-
 import UserService from "../services/user.service";
 import EventBus from "../common/EventBus";
+import i18n from "i18next"; // Import i18next or your localization library
 
 type Props = {};
 
@@ -43,10 +43,22 @@ export default class BoardUser extends Component<Props, State> {
     }
 
     render() {
+        let translatedContent;
+
+        if (this.state.content === "You are a User.") {
+            translatedContent = 'youAre.user';
+        } else if (this.state.content === "You are an Admin.") {
+            translatedContent = 'youAre.admin';
+        } else if (this.state.content === "You are a Manager.") {
+            translatedContent = 'youAre.manager';
+        } else {
+            translatedContent = this.state.content;
+        }
+
         return (
             <div className="container">
                 <header className="jumbotron">
-                    <h3>{this.state.content}</h3>
+                    <h3>{i18n.t(translatedContent)}</h3>
                 </header>
             </div>
         );

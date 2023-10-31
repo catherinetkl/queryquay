@@ -11,7 +11,12 @@
   "profile.id": "รหัส",
   "profile.name": "ชื่อ",
   "profile.email": "อีเมล",
-  "Profile.authorities": "สิทธิ",
+  "profile.authorities": "สิทธิ",
   "form.username.required": "ต้องระบุชื่อผู้ใช้",
-  "form.password.required": "ต้องระบุรหัสผ่าน"
+  "form.password.required": "ต้องระบุรหัสผ่าน",
+  "managerBoard": "นี่คือบอร์ดของผู้จัดการ เฉพาะสำหรับผู้จัดการเท่านั้น",
+  "adminBoard": "นี่คือบอร์ดของผู้ดูแลระบบ เฉพาะสำหรับผู้ดูแลระบบเท่านั้น",
+  "youAre.user":"คุณเป็นผู้ใช้",
+  "youAre.manager":"คุณเป็นผู้จัดการ",
+  "youAre.admin":"คุณเป็นผู้ดูแลระบบ"
 }
