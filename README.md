@@ -53,7 +53,7 @@ The Query Quay application is designed with a robust and well-organized architec
 The application follows the Model-View-Controller (MVC) design pattern to maintain a clear separation of concerns and ensure maintainability, scalability, and modularity. It leverages Spring Boot and ReactJS for their efficiency, robustness, and flexibility in creating a powerful employee management tool.
 
 ## Get Started
-For more information and to explore Query Quay, please check out the application at [Query Quay](https://queryquay.vercel.app/)).
+For more information and to explore Query Quay, please check out the application at [Query Quay](https://queryquay.vercel.app/).
 
 Empower your organization's HR and workforce management with Query Quay.
 
