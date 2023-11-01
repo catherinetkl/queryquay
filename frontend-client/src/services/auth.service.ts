@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = `https://monorail.proxy.rlwy.net:11308/api/auth/`;
-// const API_URL = "http://localhost:8080/api/auth/";
+// const API_URL = `https://queryquay.up.railway.app:11308/api/auth/`;
+const API_URL = "http://localhost:8080/api/auth/";
 class AuthService {
     login(email: string, password: string) {
         return axios
