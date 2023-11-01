@@ -16,7 +16,7 @@
   "form.password.required": "密码是必填的",
   "managerBoard": "这是经理板，仅供经理使用",
   "adminBoard": "这是管理员板，仅供管理员使用",
-  "youAre.user": "您是一个用户",
-  "youAre.admin": "您是一个管理员",
-  "youAre.manager": "您是一个经理"
+  "youAre.user": "您是用户",
+  "youAre.admin": "您是管理员",
+  "youAre.manager": "您是经理"
 }
