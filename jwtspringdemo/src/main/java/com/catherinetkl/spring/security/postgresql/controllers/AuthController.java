@@ -69,7 +69,7 @@ public class AuthController {
             try {
                 errorMessage = messageSource.getMessage(invalidCredentialsKey, null, locale);
             } catch (NoSuchMessageException ex) {
-                errorMessage = "Invalid username or password"; // Fallback message
+                errorMessage = "Invalid username or password";
             }
             return ResponseEntity.badRequest().body(new MessageResponse(errorMessage));
         }
