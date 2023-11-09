@@ -2,7 +2,22 @@
 Query Quay is a powerful and flexible employee management application built to streamline your HR and workforce management needs. With a robust combination of Spring Boot, Spring Security, PostgreSQL, ReactJS, and TypeScript, Query Quay empowers your organization with a comprehensive solution for user registration, authentication, authorization, and role-based access control.
 
 ## Disclaimer
-*As of the current README update, the backend deployment of the Spring Boot application and PostgreSQL on the Railway app may require attention to ensure seamless functionality. However, please note that the React Vercel app works flawlessly when the Spring Boot application is running locally on localhost:8080.
+*As of the current README update, the backend deployment of the Spring Boot application and PostgreSQL on the Railway app has been resolved and it is working seamlessly with the frontend client deployed on Vercel.
+
+## Challenges encountered
+- Fixing the building and deployment failure issues of the Spring Boot Application
+  - Main issues were: 
+    1. Configuration of Environment Variables
+        - When specifying secrets in the env.properties file, attempting to import them using spring.config.import=file:./env.properties did not work as expected.
+    Resolution:
+        - Changed the import configuration to spring.config.import=classpath:env.properties, resolving the issue by correctly referencing the classpath.
+    2. Utilizing Environment Variables in Configuration
+        - Encountered syntax differences while using environment variables with Spring Boot, such as missing the $ sign before the curly braces.
+    Resolution:
+        - Aligned the configuration with the correct syntax, incorporating $ before the curly braces in properties like spring.datasource.url, ensuring accurate interpretation of   environment variables.
+    3. Adjusting API URL in React/Typescript App
+        - Modified the API URL in user.service.ts and auth.service.ts to reflect the correct URL where my Spring Boot application is hosted. This ensures that the correct connection between my React frontend and Spring Boot backend is established, allowing for seamless communication and the execution of the intended functionalities for both GET and POST requests. With this modification, the endpoints for user access (/all, /user, /manager, /admin) align with the changes in the backend configuration and to fetch user details from the PostgreSQL database.
+        
 
 **Test User Credentials:**
 To test the application, you can use the following user accounts:
