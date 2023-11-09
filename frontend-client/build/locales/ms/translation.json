@@ -1,0 +1,23 @@
+{
+  "form.firstname": "Nama Pertama",
+  "form.lastname": "Nama Akhir",
+  "form.email": "Emel",
+  "form.username": "Nama Pengguna",
+  "form.password": "Kata Laluan",
+  "signup.signup": "Daftar Masuk",
+  "login.login": "Log Masuk",
+  "profile.profile": "Profil",
+  "profile.token": "Token",
+  "profile.id": "Id",
+  "profile.name": "Nama",
+  "profile.email": "Emel",
+  "profile.authorities": "Pihak Berkuasa",
+  "form.username.required": "Nama pengguna wajib diisi",
+  "form.password.required": "Kata laluan wajib diisi",
+  "managerBoard": "Ini adalah papan pengurus, hanya untuk kegunaan pengurus.",
+  "adminBoard": "Ini adalah papan pentadbir, hanya untuk kegunaan pentadbir.",
+  "youAre.user": "Anda ialah Pengguna.",
+  "youAre.manager":"Anda ialah Pengurus.",
+  "youAre.admin": "Anda ialah Pentadbir.",
+  "message.invalid_credentials": "Nama pengguna atau kata laluan tidak sah"
+}

@@ -1,0 +1,23 @@
+{
+  "form.firstname": "First Name",
+  "form.lastname": "Last Name",
+  "form.email": "Email",
+  "form.username": "Username",
+  "form.password": "Password",
+  "signup.signup": "Sign Up",
+  "login.login": "Log In",
+  "profile.profile": "Profile",
+  "profile.token": "Token",
+  "profile.id": "Id",
+  "profile.name": "Name",
+  "profile.email": "Email",
+  "profile.authorities": "Authorities",
+  "form.username.required": "Username required",
+  "form.password.required": "Password required",
+  "managerBoard": "This is the manager board, strictly for manager use only.",
+  "adminBoard": "This is the admin board, strictly for administrative use only",
+  "youAre.user": "You are a User",
+  "youAre.admin": "You are an Admin",
+  "youAre.manager": "You are a Manager",
+  "message.invalid_credentials": "Invalid username or password"
+}

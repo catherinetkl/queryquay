@@ -1,0 +1,23 @@
+{
+  "form.firstname": "Prénom",
+  "form.lastname": "Nom de Famille",
+  "form.email": "Email",
+  "form.username": "Nom d'utilisateur",
+  "form.password": "Mot de Passe",
+  "signup.signup": "S'inscrire",
+  "login.login": "Se Connecter",
+  "profile.profile": "Profil",
+  "profile.token": "Jeton",
+  "profile.id": "Id",
+  "profile.name": "Nom",
+  "profile.email": "Email",
+  "profile.authorities": "Autorités",
+  "form.username.required": "Le nom d'utilisateur est obligatoire",
+  "form.password.required": "Le mot de passe est obligatoire",
+  "managerBoard": "Ceci est le tableau du gestionnaire, réservé aux gestionnaires uniquement.",
+  "adminBoard": "Ceci est le tableau d'administration, réservé aux administrateurs uniquement.",
+  "youAre.user": "Vous êtes un utilisateur.",
+  "youAre.manager":"Vous êtes un gestionnaire.",
+  "youAre.admin": "Vous êtes un administrateur.",
+  "message.invalid_credentials": "Nom d'utilisateur ou mot de passe invalide"
+}

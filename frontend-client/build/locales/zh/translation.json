@@ -1,0 +1,23 @@
+{
+  "form.firstname": "名字",
+  "form.lastname": "姓氏",
+  "form.email": "电邮",
+  "form.username": "账号",
+  "form.password": "密码",
+  "signup.signup": "注册",
+  "login.login": "登录",
+  "profile.profile": "个人资料",
+  "profile.token": "令牌",
+  "profile.id": "标识",
+  "profile.name": "姓名",
+  "profile.email": "电邮",
+  "profile.authorities": "权限",
+  "form.username.required": "用户名是必填的",
+  "form.password.required": "密码是必填的",
+  "managerBoard": "这是经理板，仅供经理使用",
+  "adminBoard": "这是管理员板，仅供管理员使用",
+  "youAre.user": "您是用户",
+  "youAre.admin": "您是管理员",
+  "youAre.manager": "您是经理",
+  "message.invalid_credentials": "无效的用户名或密码"
+}
