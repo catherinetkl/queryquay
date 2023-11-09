@@ -18,5 +18,6 @@
   "adminBoard": "这是管理员板，仅供管理员使用",
   "youAre.user": "您是用户",
   "youAre.admin": "您是管理员",
-  "youAre.manager": "您是经理"
+  "youAre.manager": "您是经理",
+  "message.invalid_credentials": "无效的用户名或密码"
 }

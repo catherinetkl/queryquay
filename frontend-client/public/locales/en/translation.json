@@ -18,5 +18,6 @@
   "adminBoard": "This is the admin board, strictly for administrative use only",
   "youAre.user": "You are a User",
   "youAre.admin": "You are an Admin",
-  "youAre.manager": "You are a Manager"
+  "youAre.manager": "You are a Manager",
+  "message.invalid_credentials": "Invalid username or password"
 }

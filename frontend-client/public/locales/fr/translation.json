@@ -18,5 +18,6 @@
   "adminBoard": "Ceci est le tableau d'administration, réservé aux administrateurs uniquement.",
   "youAre.user": "Vous êtes un utilisateur.",
   "youAre.manager":"Vous êtes un gestionnaire.",
-  "youAre.admin": "Vous êtes un administrateur."
+  "youAre.admin": "Vous êtes un administrateur.",
+  "message.invalid_credentials": "Nom d'utilisateur ou mot de passe invalide"
 }

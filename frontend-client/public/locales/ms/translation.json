@@ -18,5 +18,6 @@
   "adminBoard": "Ini adalah papan pentadbir, hanya untuk kegunaan pentadbir.",
   "youAre.user": "Anda ialah Pengguna.",
   "youAre.manager":"Anda ialah Pengurus.",
-  "youAre.admin": "Anda ialah Pentadbir."
+  "youAre.admin": "Anda ialah Pentadbir.",
+  "message.invalid_credentials": "Nama pengguna atau kata laluan tidak sah"
 }

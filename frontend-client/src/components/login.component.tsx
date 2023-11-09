@@ -64,19 +64,23 @@ export default class Login extends Component<Props, State> {
                 });
             },
             error => {
-                const resMessage =
+                const errorMessage =
                     (error.response &&
                         error.response.data &&
                         error.response.data.message) ||
                     error.message ||
                     error.toString();
 
+                // Use i18n to get the translated error message
+                const translatedErrorMessage = t(`message.${errorMessage}`, {
+                    defaultValue: errorMessage,
+                });
+
                 this.setState({
                     loading: false,
-                    message: resMessage
+                    message: translatedErrorMessage
                 });
-            }
-        );
+            });
     }
 
     render() {
@@ -132,7 +136,7 @@ export default class Login extends Component<Props, State> {
                             {message && (
                                 <div className="form-group">
                                     <div className="alert alert-danger" role="alert">
-                                        {message}
+                                        {t('message.invalid_credentials')}
                                     </div>
                                 </div>
                             )}
